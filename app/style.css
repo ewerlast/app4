@@ -1,0 +1,220 @@
+body{
+    box-sizing: border-box;
+    min-height: 1000px;
+}
+
+
+
+/*               ДЗ 1              */
+.wrapper{
+   width: 800px;
+    min-height: 400px;
+    margin: 20px auto;
+    background-color: darkcyan;
+    position: relative;
+    
+}
+.wrapper form{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+.wrapper #in_number{
+    width: 45%;
+}
+.wrapper label{
+    color: #ffff;
+    font-weight: bold;
+}
+.wrapper #enter:hover{
+    background-color: darkslategrey;
+    transform: scale(1.2);
+    color: #ffff;
+}
+
+.result{
+    margin: 40px auto;
+    width: 200px;
+    height:200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: darkolivegreen;
+    font-size: 4em;
+    color: #ffff;
+}
+.wrapper .victory{
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    min-height: 350px;
+    background-image: url(images/Без\ названия.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.victory p{
+    font-size: 4em;
+    color: #ffff;
+    text-align: center;
+    margin-top: 20%;
+}
+
+/*               ДЗ 2              */
+.wrapper_button{
+    width: 350px;
+    min-height: 300px;
+    margin: 20px auto;
+    background-color: rgb(66, 89, 119);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#btn_2{
+    width: 45%;
+    margin: auto;
+    font-size: 1.5em;
+    transition: all 0.3s;
+}
+#btn_2:hover{
+    background-color: tan;
+    transform:scale(1.2);
+}
+.couter{
+    width: 250px;
+    height: 150px;
+    margin: 10px auto;
+    background-color: sienna;
+    color: #ffff;
+    font-size:2em;
+    text-align: center;
+    
+}
+
+/*               ДЗ 3              */
+
+.wrapper_max_number{
+    width: 400px;
+    min-height: 400px;
+    margin: 20px auto;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+
+}
+.wrapper_max_number button,p{
+    width: 50%;
+    margin: 10px auto;
+    font-size: 1.5em;
+    
+}
+.wrapper_max_number input{
+    width: 75%;
+    font-size: 1.5em;
+    margin: 10px auto;
+    transition: all 0.3s;
+}
+.run_max:hover{
+    background-color: darkslategrey;
+    color: #ffff;
+    transform: scale(1.2);
+}
+.max_result{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: slategray;
+    color: #ffff;
+}
+
+/*               ДЗ 4              */
+
+.wrapper_sign{
+    width: 400px;
+    min-height: 400px;
+    margin: 20px auto;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+
+}
+.wrapper_sign input{
+    
+    width: 75%;
+    font-size: 1.5em;
+    margin: 10px auto;
+    transition: all 0.3s;
+}
+#run_sign{
+    width: 75%;
+    font-size: 1.5em;
+    margin: 10px auto;
+    transition: all 0.3s;
+}
+#run_sign:hover{
+    background-color: darkslategrey;
+    color: #ffff;
+    transform: scale(1.2);
+}
+.result_birth{
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    padding-top: 40px;   
+    font-size: 2.5em; 
+    background-color: slategray;
+    color: #ffff;
+}
+.wrapper_sign label{
+    color: #ffff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+/*               ДЗ 5              */
+.wrapper_year{
+    width: 400px;
+    min-height: 400px;
+    margin: 20px auto;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper_year input{
+    
+    width: 75%;
+    font-size: 1.5em;
+    margin: 10px auto;
+    transition: all 0.3s;
+}
+#run_year{
+    width: 75%;
+    font-size: 1.5em;
+    margin: 10px auto;
+    transition: all 0.3s;
+}
+#run_year:hover{
+    background-color: darkslategrey;
+    color: #ffff;
+    transform: scale(1.2);
+}
+.result_year{
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    padding-top: 40px;   
+    font-size: 2.5em; 
+    background-color: slategray;
+    color: #ffff;   
+}
+.wrapper_year label{
+    color: #ffff;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 65px;
+}

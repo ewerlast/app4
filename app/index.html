@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Введите данные:</p>
+    <input type="number" id="user-num">
+    <button id="btn">Check</button>
+
+                                         <!-- My code-->
+
+   <!--             ДЗ_1            -->
+<h2>ДЗ 1</h2>
+<div class="wrapper">
+    <div class="victory"><p>ПОБЕДА</p></div>
+    <form action="#" method="POST">
+        <label for="">ИГРА от 0 до 9</label>
+        <input type="text" id="in_number">
+        <input type="button" value="Перезагрузить" onClick="window.location.reload()">
+        <button type="button" id="enter" >генератор</button>
+    </form>
+    <div class="result">
+        <div class="my_namber"></div>
+        <div class="comp_number"></div>
+    </div>
+
+</div>
+
+
+<!--                ДЗ_2                    -->
+<h2>ДЗ 2</h2>
+<div class="wrapper_button">
+    <p class="couter"></p>
+    <button type="button" id="btn_2">нажми меня</button>
+    <input type="button" value="Перезагрузить" onClick="window.location.reload()">
+</div>
+
+<!--                ДЗ_3                    -->
+
+<h2>ДЗ 3</h2>
+
+<div class="wrapper_max_number">
+    <p class="max_result"></p>
+    <input type="text" class="first_number">
+    <input type="text" class="second_number">
+    <button type="button" class="run_max">run Max</button>
+    <input type="button" value="Перезагрузить" onClick="window.location.reload()">
+
+</div>   
+
+
+<!--                ДЗ_4                   -->
+<h2>ДЗ 4</h2>
+<div class="wrapper_sign">
+    <label for="">введите день рождения </label>
+    <input type="text" id="day_birht">
+    <label for="">введите месяц рождения числом </label>
+    <input type="text" id="month_birht">
+    <p class="result_birth"></p>
+    <button type="button" id="run_sign">ответ</button>
+    <input type="button" value="Перезагрузить" onClick="window.location.reload()">
+
+</div>
+
+<!--                ДЗ_5                 -->
+
+<h2>ДЗ 5</h2>
+<div class="wrapper_year">
+    <p class="result_year"></p>
+    <label for="">введите год числом</label>
+    <input type="text" id="in_year">
+    <button type="button" id="run_year">ответ</button>
+    <input type="button" value="Перезагрузить" onClick="window.location.reload()">
+</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
